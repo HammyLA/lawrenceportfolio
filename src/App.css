@@ -1,0 +1,55 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h3 {
+  color: #a0a0a0;
+}
+
+h5 {
+  color: #a0a0a0;
+}
+
+p {
+  color: #a0a0a0;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.15);
+  background-color: #5c88c4;
+  cursor: pointer;
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(5%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+button {
+  width: 120px;
+  min-width: 120px;
+  height: 50px;
+  border-radius: 15px;
+
+  margin: 10px;
+  background-color: #5c88c4;
+  border: 2px solid #f5f5f5;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #4a76b1;
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.navbar {
+  border-bottom: 1px solid #f5f5f5;
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.navbar a {
+  display: inline;
+  float: left;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navbar a:hover {
+  background-color: #5c88c4;
+}
+
+.navbar a:active {
+  background-color: #e3dac9;
+}
+
+.contactrow {
+  display: inline;
+  position: relative;
+  display: flex;
+  float: right;
+}
+
+.contactrow img {
+  margin: 0px 10px;
+  height: 30px;
+}
+
+@media only screen and (max-width: 750px) {
+  .navbar a {
+    font-size: 12px;
+  }
+  .contactrow img {
+    height: 15px;
+    margin: 0px 0px;
+  }
+}

@@ -1,0 +1,47 @@
+.projectcard {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 30px 0px;
+
+  min-width: 100%;
+  min-height: fit-content;
+  justify-content: center;
+}
+
+.projectcard h2 {
+  animation: fadeInUp 1s both 0.2s
+}
+
+.projectcard h5 {
+  color: #a0a0a0;
+  animation: fadeInUp 1s both 0.4s
+}
+
+.projectcard p {
+  animation: fadeInUp 1s both 0.6s
+}
+
+.projectcard .imagecontainer {
+  display: flex;
+
+  margin: 0px 30px;
+  place-items: center;
+  justify-content: center;
+}
+
+.projectcard .imagecontainer img {
+  border: 1px solid #f5f5f5;
+}
+
+.projectcard a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 850px) {
+  .projectcard {
+    flex-direction: column;
+  }
+}
