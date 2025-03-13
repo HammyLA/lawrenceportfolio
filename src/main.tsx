@@ -7,7 +7,7 @@ import Navbar from './components/Navbar.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Router basename='/lawrence'>
+    <Router basename='/lawrenceportfolio'>
     <Navbar />
       <App />
     </Router>
