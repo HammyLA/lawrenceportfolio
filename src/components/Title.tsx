@@ -17,8 +17,8 @@ function Title() {
                     Computer Science Student & Aspiring Software Developer
                 </h3>
                 <div className='buttonrow'>
-                    <button onClick={() => { navigate('/projects') }}>View my Work</button>
-                    <button onClick={() => { window.location.href = 'src/assets/lawrencecuencoresume.pdf' }}>My Resume</button>
+                    <button className='grow' onClick={() => { navigate('/projects') }}>View my Work</button>
+                    <button className='grow' onClick={() => { window.location.href = 'src/assets/lawrencecuencoresume.pdf' }}>My Resume</button>
                 </div>
             </div>
             <div>

@@ -2,6 +2,7 @@ import simpleCiphersImg from "../assets/projectimages/simpleciphers.png";
 import overcheckImg from "../assets/projectimages/overcheck.png";
 import libraryManagementImg from "../assets/projectimages/librarymanagement.png";
 import weatherAppImg from "../assets/projectimages/weatherapp.png";
+import malwareClassifierImg from "../assets/projectimages/malwareclassifier.png";
 
 export type Project = {
   id: number;
@@ -54,5 +55,15 @@ export const ProjectList: Project[] = [
     longDescription: "",
     technologies: "NextJS, OpenWeatherAPI, HTML, Tailwind CSS, Git",
     splashimg: weatherAppImg,
+  },
+  {
+    id: 4,
+    title: "AI-Powered Malware Classifier",
+    url: "https://github.com/HammyLA/MalwareClassification",
+    shortDescription:
+      "A project consisting of multiple machine learning models to classify malware samples. Machine learning algorithms include Gradient-Boosted Trees, Neural Networks, Support Vector Machines, and Random Forests. The project was created using Python and Jupyter Notebook. Future plans are to apply it to a full-stack application to assist in malware detection.",
+    longDescription: "",
+    technologies: "Python, Jupyter Notebook, Git",
+    splashimg: malwareClassifierImg,
   },
 ];
