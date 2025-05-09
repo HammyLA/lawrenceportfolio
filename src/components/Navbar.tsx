@@ -8,7 +8,7 @@ function Navbar() {
     return (
         <div className='navbar'>
             <Link className='grow' to=''>Home</Link>
-            <Link className='grow' to='/projects'>Projects</Link>
+            <a className='grow' href='#projects'>Projects</a>
             <div className='contactrow'>
                 <a className='grow' href='https://github.com/HammyLA'><img src={github} alt='github' /></a>
                 <a className='grow' href='https://www.linkedin.com/in/lawrence-cuenco-21551724a/'><img src={linkedin} alt='linkedin' /></a>

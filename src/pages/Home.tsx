@@ -1,10 +1,14 @@
+import Projects from "../components/Projects"
 import Title from "../components/Title"
 
 function Home() {
   return (
-    <div>
-      <Title />
-    </div>
+    <>
+      <div>
+        <Title />
+        <Projects />
+      </div>
+    </>
   )
 }
 

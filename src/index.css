@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -18,6 +21,10 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #2a2a2a;
+  opacity: 0.8;
+  background-image: radial-gradient(rgb(48, 48, 48) 1px, #1a1a1a 0.5px);
+  background-size: 10px 10px;
 }
 
 h1 {

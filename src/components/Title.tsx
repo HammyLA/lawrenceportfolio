@@ -8,17 +8,20 @@ function Title() {
 
 
     return (
-        <>
+        <div>
             <div className="title">
+                <div></div>
                 <h1>
                     Hi! I'm Lawrence Cuenco
                 </h1>
-                <h3>
-                    Computer Science Student & Aspiring Software Developer
+                <h3 style={{ width: '500px' }}>
+                    I'm currently learning full stack development and I'm always looking for new opportunities to learn and grow.
                 </h3>
                 <div className='buttonrow'>
-                    <button className='grow' onClick={() => { navigate('/projects') }}>View my Work</button>
-                    <button className='grow' onClick={() => { window.location.href = 'src/assets/lawrencecuencoresume.pdf' }}>My Resume</button>
+                    <button className="grow" onClick={() => {
+                        document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
+                    }}>Projects</button>
+                    <button className='grow' onClick={() => { window.location.href = 'src/assets/lawrencecuencoresume.pdf' }}>Resume</button>
                 </div>
             </div>
             <div>
@@ -60,7 +63,7 @@ function Title() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
 
     )
 }
