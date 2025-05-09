@@ -12,6 +12,10 @@
   animation: fadeInUp 1s both
 }
 
+.title h3 {
+  width: 400px;
+}
+
 .buttonrow {
   display: flex;
   flex-direction: row;
@@ -56,7 +60,12 @@
     margin: 0px 25px;
   }
   h1 {
-    font-size: 40px;
+    font-size: 50px;
+    text-align: center;
+  }
+  .title h3 {
+    width: 250px;
+    text-align: center;
   }
   button {
     width: 50px;

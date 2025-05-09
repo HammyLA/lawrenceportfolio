@@ -8,7 +8,7 @@ function Title() {
                 <h1>
                     Hi! I'm Lawrence Cuenco
                 </h1>
-                <h3 style={{ width: '500px' }}>
+                <h3>
                     I'm currently learning full stack development and I'm always looking for new opportunities to learn and grow.
                 </h3>
                 <div className='buttonrow'>
@@ -20,14 +20,16 @@ function Title() {
             </div>
             <div>
                 <div className='skillrow'>
-                    <div>
+                    <div className='skills-container'>
                         <h3>
                             Frameworks / Libraries
                         </h3>
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" />
+                        <div className='icons'>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" />
+                        </div>
                     </div>
                     <div>
                         <h3>

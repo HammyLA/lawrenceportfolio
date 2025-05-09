@@ -49,7 +49,7 @@
     flex-direction: column;
   }
   .projectcard img {
-    height: 225px;
-    width: 350px;
+    height: 125px;
+    width: 200px;
   }
 }
