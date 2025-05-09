@@ -15,7 +15,7 @@ function Title() {
                     <button className="grow" onClick={() => {
                         document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
                     }}>Projects</button>
-                    <button className='grow' onClick={() => { window.location.href = '/lawrenceportfolio/src/assets/lawrencecuencoresume.pdf' }}>Resume</button>
+                    <button className='grow' onClick={() => { window.location.href = '/lawrenceportfolio/lawrencecuencoresume.pdf' }}>Resume</button>
                 </div>
             </div>
             <div>
