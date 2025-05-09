@@ -1,12 +1,6 @@
 import '../styles/title.css'
 
-import { useNavigate } from 'react-router-dom'
-
 function Title() {
-    let navigate = useNavigate()
-
-
-
     return (
         <div>
             <div className="title">
